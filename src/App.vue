@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <HelloWorld/>
+    <JumboTron/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import JumboTron from './components/Jumbotron.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    JumboTron
   }
 }
 </script>
